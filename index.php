@@ -15,29 +15,27 @@ function buildArticle(array $row): array {
         'author'    => (string) $row['author'],
     ];
 }
-echo "<pre>";
-var_dump(buildArticle([]));
-// title: "Sans titre", excerpt: null, views: 0, published: true, author: "N/A"
-echo "</pre>";
+
+
+$testData = [
+    [],  // completely empty → all defaults
+    ['views' => 0],  // views = 0 (should stay 0)
+    ['excerpt' => ''],  // empty string → converted to null
+    ['excerpt' => null], // null → stays null
+    ['title' => 'My Article', 'author' => 'Amin'], // custom title & author, others default
+    ['views' => -5, 'published' => 0], // negative views → 0, published false
+    ['excerpt' => 'This is a summary.'], // excerpt filled, others default
+];
 
 echo "<pre>";
-var_dump(buildArticle(['views' => 0]));
-// views: 0
+foreach ($testData as $data) {
+    var_dump(buildArticle($data));
+}
 echo "</pre>";
 
-echo "<pre>";
-var_dump(buildArticle(['excerpt' => '']));
-// excerpt: null
-echo "</pre>";
-
-echo "<pre>";
-var_dump(buildArticle(['excerpt' => null]));
-// excerpt: null
-echo "</pre>";
-
-/////////////////////:
 
 
 
-    
+    //////////////
+    echo "<br>";
 
