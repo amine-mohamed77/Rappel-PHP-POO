@@ -1,0 +1,14 @@
+[
+    {
+      "title": "Hello Exceptions",
+      "slug": "hello-exceptions"
+    },
+    {
+      "title": "",
+      "slug": "invalide"
+    },
+    {
+      "title": "Mauvais JSON",
+      "slug": "mauvais-json"
+    }
+  ]

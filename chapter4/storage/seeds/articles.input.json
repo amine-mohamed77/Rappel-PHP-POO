@@ -1,0 +1,8 @@
+[
+    { "title": "Hello Exceptions", "slug": "hello-exceptions" },
+    { "title": "", "slug": "invalide" }, 
+    { "title": "Mauvais JSON"  // <- supprimez la virgule pour provoquer une erreur JSON
+  ]
+  
+
+  
