@@ -9,28 +9,30 @@ $articles = [
   
 
 //step 1
+//A function that converts a title to something simple and valid for URLs.
 function slugify(string $title):string{
     $slug = strtolower($title); // We change the letters to lowercase
     $slug = preg_replace('/[^a-z0-9]+/i', '-', $slug);
     return trim($slug,"-");
 }
-echo slugify("Intro Laravel");
+echo slugify("Composer & Autoload");
 
 
 
 //step 2
-
+//Articles that have published=true.
 $published = array_values(
 array_filter($articles,fn($a)=>["published"]??false)
 );
 
-echo "<pre>";
+
 print_r($published);
 
-echo "</pre>";
+
 //////////////////
 
 //step 3
+//We convert articles into a simplified form.
 $light = array_map(
     fn($a) => [
       'id'    => $a['id'],
@@ -75,7 +77,7 @@ $byAuthor = array_reduce(
 print_r($byAuthor);
 
 //step 6
-
+//We count the number of times each tag appears.
 $allTags = array_merge(...array_map(fn($a) => $a['tags'], $published));
 
 $tagFreq = array_reduce(
@@ -90,6 +92,7 @@ $tagFreq = array_reduce(
 
 
 //Step 7
+//fetch data
 echo "Top 3 (views):\n";
 foreach ($top as $a) {
   echo "- {$a['title']} ({$a['views']} vues) — {$a['slug']}\n";
