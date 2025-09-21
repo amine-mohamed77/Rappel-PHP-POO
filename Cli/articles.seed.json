@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Intro Laravel",
+        "excerpt": "Guide de d├®marrage",
+        "views": 120,
+        "published": true,
+        "author": "Amina"
+    },
+    {
+        "title": "PHP 8 en pratique",
+        "excerpt": "Tour des nouveaut├®s",
+        "views": 300,
+        "published": true,
+        "author": "Yassine"
+    }
+]

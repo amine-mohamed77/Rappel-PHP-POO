@@ -1,0 +1,117 @@
+[
+    {
+        "title": "Best practices PHP #1",
+        "slug": "best-practices-php-1",
+        "excerpt": "Sample content for « Best practices PHP #1 ». This article illustrates JSON seed generation in CLI.",
+        "content": "Sample content for « Best practices PHP #1 ». This article illustrates JSON seed generation in CLI.",
+        "author": "Sara",
+        "published_at": "2025-09-01T06:37:40+00:00",
+        "tags": [
+            "Laravel"
+        ]
+    },
+    {
+        "title": "Discover Eloquent #2",
+        "slug": "discover-eloquent-2",
+        "excerpt": "Sample content for « Discover Eloquent #2 ». This article illustrates JSON seed generation in CLI.",
+        "content": "Sample content for « Discover Eloquent #2 ». This article illustrates JSON seed generation in CLI.",
+        "author": "Sara",
+        "published_at": "2025-08-22T18:55:40+00:00",
+        "tags": [
+            "MySQL",
+            "UX",
+            "PHP"
+        ]
+    },
+    {
+        "title": "REST API in PHP #3",
+        "slug": "rest-api-in-php-3",
+        "excerpt": "Sample content for « REST API in PHP #3 ». This article illustrates JSON seed generation in CLI.",
+        "content": "Sample content for « REST API in PHP #3 ». This article illustrates JSON seed generation in CLI.",
+        "author": "Youssef",
+        "published_at": "2025-09-17T13:25:26+00:00",
+        "tags": [
+            "MySQL"
+        ]
+    },
+    {
+        "title": "Pagination and filters #4",
+        "slug": "pagination-and-filters-4",
+        "excerpt": "Sample content for « Pagination and filters #4 ». This article illustrates JSON seed generation in CLI.",
+        "content": "Sample content for « Pagination and filters #4 ». This article illustrates JSON seed generation in CLI.",
+        "author": "Amine",
+        "published_at": "2025-09-03T03:30:18+00:00",
+        "tags": [
+            "Laravel",
+            "UX",
+            "MySQL"
+        ]
+    },
+    {
+        "title": "Nice exceptions #5",
+        "slug": "nice-exceptions-5",
+        "excerpt": "Sample content for « Nice exceptions #5 ». This article illustrates JSON seed generation in CLI.",
+        "content": "Sample content for « Nice exceptions #5 ». This article illustrates JSON seed generation in CLI.",
+        "author": "Sara",
+        "published_at": "2025-09-13T04:08:52+00:00",
+        "tags": [
+            "UX",
+            "MySQL"
+        ]
+    },
+    {
+        "title": "Best practices PHP #6",
+        "slug": "best-practices-php-6",
+        "excerpt": "Sample content for « Best practices PHP #6 ». This article illustrates JSON seed generation in CLI.",
+        "content": "Sample content for « Best practices PHP #6 ». This article illustrates JSON seed generation in CLI.",
+        "author": "Sara",
+        "published_at": "2025-08-24T17:14:15+00:00",
+        "tags": [
+            "Mobile"
+        ]
+    },
+    {
+        "title": "Discover Eloquent #7",
+        "slug": "discover-eloquent-7",
+        "excerpt": "Sample content for « Discover Eloquent #7 ». This article illustrates JSON seed generation in CLI.",
+        "content": "Sample content for « Discover Eloquent #7 ». This article illustrates JSON seed generation in CLI.",
+        "author": "Nadia",
+        "published_at": "2025-09-17T09:22:17+00:00",
+        "tags": [
+            "MySQL"
+        ]
+    },
+    {
+        "title": "REST API in PHP #8",
+        "slug": "rest-api-in-php-8",
+        "excerpt": "Sample content for « REST API in PHP #8 ». This article illustrates JSON seed generation in CLI.",
+        "content": "Sample content for « REST API in PHP #8 ». This article illustrates JSON seed generation in CLI.",
+        "author": "Amine",
+        "published_at": "2025-09-12T18:10:46+00:00",
+        "tags": [
+            "Mobile"
+        ]
+    },
+    {
+        "title": "Pagination and filters #9",
+        "slug": "pagination-and-filters-9",
+        "excerpt": "Sample content for « Pagination and filters #9 ». This article illustrates JSON seed generation in CLI.",
+        "content": "Sample content for « Pagination and filters #9 ». This article illustrates JSON seed generation in CLI.",
+        "author": "Youssef",
+        "published_at": "2025-08-30T09:29:34+00:00",
+        "tags": [
+            "Mobile"
+        ]
+    },
+    {
+        "title": "Nice exceptions #10",
+        "slug": "nice-exceptions-10",
+        "excerpt": "Sample content for « Nice exceptions #10 ». This article illustrates JSON seed generation in CLI.",
+        "content": "Sample content for « Nice exceptions #10 ». This article illustrates JSON seed generation in CLI.",
+        "author": "Nadia",
+        "published_at": "2025-08-30T10:50:31+00:00",
+        "tags": [
+            "UX"
+        ]
+    }
+]

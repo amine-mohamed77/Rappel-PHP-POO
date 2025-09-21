@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Fichiers & JSON avec PHP",
+        "slug": "fichiers-json-avec-php",
+        "excerpt": "Lire/écrire des fichiers, encoder/décoder du JSON en toute sécurité.",
+        "tags": [
+            "php",
+            "json"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Préparer le seed Articles",
+        "slug": "pr-parer-le-seed-articles",
+        "excerpt": "Construire un articles.seed.json réutilisable dans Laravel.",
+        "tags": [
+            "seed",
+            "laravel"
+        ]
+    }
+]
